@@ -63,7 +63,7 @@ function Search() {
             {options.map((option) => (
               <div
                 key={option.id}
-                className={`cursor-pointer py-2 px-4 hover:bg-pink-600 hover:text-white shadow-sm ${
+                className={`cursor-pointer p-4 m-2 rounded-md hover:bg-pink-600 hover:text-white shadow-sm ${
                   selectedOption && selectedOption.id === option.id
                     ? 'bg-yellow-100'
                     : ''
