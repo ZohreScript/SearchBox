@@ -35,7 +35,7 @@ function Search() {
   };
 
   return (
-    <div className="flex justify-center  font-medium items-center h-screen bg-gradient-to-r from-purple-500 to-pink-500"  style={{ fontFamily: 'Poppins, sans-serif' }}>
+    <div className="flex justify-center font-poppins font-medium items-center h-screen bg-gradient-to-r from-purple-500 to-pink-500"  style={{ fontFamily: 'Poppins, sans-serif' }}>
       <div className="w-full md:w-1/2 m-4 relative">
         <div className="relative">
           <input
